@@ -56,7 +56,7 @@ public class GenericMergeSort {
         }
     }
 
-    public static <E> void merge(E[] list1, E[] list2, E[] temp, Comparator<? super E> comparator) {
+    private static <E> void merge(E[] list1, E[] list2, E[] temp, Comparator<? super E> comparator) {
         int current1 = 0;
         int current2 = 0;
         int current3 = 0;
